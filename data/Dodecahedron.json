@@ -1,0 +1,110 @@
+{
+
+	"Name": "Dodecahedron",
+
+	"Alphabet": [
+
+		{
+			"value": "I",
+			"action": "initial placeholder"
+		},
+
+		{
+			"value": "F",
+			"action": "move forward"
+		},
+
+		{
+			"value": "S",
+			"action": "move small forward"
+		},
+
+		{
+			"value": "M",
+			"action": "move medium forward"
+		},
+
+		{
+			"value": "E",
+			"action": "move extra forward"
+		},
+
+		{
+			"value": "L",
+			"action": "level up"
+		},
+
+		{
+			"value": "D",
+			"action": "set dash"
+		},
+
+		{
+			"value": "d",
+			"action": "set no dash"
+		},
+
+		{
+			"value": "-",
+			"action": "turn left"
+		},
+
+		{
+			"value": ",",
+			"action": "turn tiny left"
+		},
+
+		{
+			"value": "+",
+			"action": "turn right"
+		},
+
+		{
+			"value": ".",
+			"action": "turn tiny right"
+		},
+
+		{
+			"value": "<",
+			"action": "turn small right"
+		},
+
+		{
+			"value": "#",
+			"action": "turn medium right"
+		},
+
+		{
+			"value": ">",
+			"action": "turn big right"
+		},
+
+		{
+			"value": "|",
+			"action": "invert"
+		},
+
+		{
+			"value": "[",
+			"action": "push matrix"
+		},
+
+		{
+			"value": "]",
+			"action": "pop matrix"
+		}
+
+	],
+
+	"Axiom": "I",
+
+	"Rules": [
+
+		{
+			"symbol": "I",
+			"derives": "[[F[<M[,S]#E]-M.S>E]+[F[<M[,S]#E]-M.S>E]+[F[<M[,S]#E]-M.S>E]][|D[F[<M]-M]+[F[<M]-M]+[F[<M]-Md]]LI"
+		}
+
+	]
+
+}

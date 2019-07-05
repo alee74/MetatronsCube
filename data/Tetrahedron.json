@@ -1,0 +1,55 @@
+{
+
+	"Name": "Tetrahedron",
+
+	"Alphabet": [
+
+		{
+			"value": "I",
+			"action": "initial placeholder"
+		},
+
+		{
+			"value": "F",
+			"action": "move forward"
+		},
+
+		{
+			"value": "E",
+			"action": "move extra forward"
+		},
+
+		{
+			"value": "L",
+			"action": "level up"
+		},
+
+		{
+			"value": "+",
+			"action": "turn right"
+		},
+
+		{
+			"value": "[",
+			"action": "push matrix"
+		},
+
+		{
+			"value": "]",
+			"action": "pop matrix"
+		}
+
+	],
+
+	"Axiom": "I",
+
+	"Rules": [
+
+		{
+			"symbol": "I",
+			"derives": "[F+++++E++++[+F]E++++[+F]E]LI"
+		}
+
+	]
+
+}

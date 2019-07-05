@@ -1,0 +1,85 @@
+{
+
+	"Name": "Star",
+
+	"Alphabet": [
+
+		{
+			"value": "I",
+			"action": "initial placeholder"
+		},
+
+		{
+			"value": "F",
+			"action": "move forward"
+		},
+
+		{
+			"value": "f",
+			"action": "translate"
+		},
+
+		{
+			"value": "S",
+			"action": "move small forward"
+		},
+
+		{
+			"value": "M",
+			"action": "move medium forward"
+		},
+
+		{
+			"value": "E",
+			"action": "move extra forward"
+		},
+
+		{
+			"value": "L",
+			"action": "level up"
+		},
+
+		{
+			"value": "D",
+			"action": "set dash"
+		},
+
+		{
+			"value": "d",
+			"action": "set no dash"
+		},
+
+		{
+			"value": "|",
+			"action": "invert"
+		},
+
+		{
+			"value": "+",
+			"action": "turn right"
+		},
+
+		{
+			"value": "[",
+			"action": "push matrix"
+		},
+
+		{
+			"value": "]",
+			"action": "pop matrix"
+		}
+
+	],
+
+	"Axiom": "I",
+
+	"Rules": [
+
+		{
+			"symbol": "I",
+			"derives": "[f+++M++++[+DFd]M[++++M]M++++[+DFd]M[++++M]M++++[+DFd]M++++M][F+++++SDSdS++++[+F]SDSdS++++[+F]SDSdS][|Df+++++M++++M++++Md]LI"
+		}
+
+	]
+
+}

@@ -1,0 +1,90 @@
+{
+
+	"Name": "Seed of Life",
+
+	"Alphabet": [
+
+		{
+			"value": "I",
+			"action": "initial placeholder"
+		},
+
+		{
+			"value": "C",
+			"action": "draw circle"
+		},
+
+		{
+			"value": "c",
+			"action": "draw circle"
+		},
+
+		{
+			"value": "O",
+			"action": "draw circle"
+		},
+
+		{
+			"value": "o",
+			"action": "draw circle"
+		},
+
+		{
+			"value": "f",
+			"action": "translate"
+		},
+
+		{
+			"value": "H",
+			"action": "bold color"
+		},
+
+		{
+			"value": "h",
+			"action": "low color"
+		},
+
+		{
+			"value": "+",
+			"action": "turn right"
+		},
+
+		{
+			"value": "[",
+			"action": "push matrix"
+		},
+
+		{
+			"value": "]",
+			"action": "pop matrix"
+		}
+
+	],
+
+	"Axiom": "I",
+
+	"Rules": [
+
+		{
+			"symbol": "I",
+			"derives": "Hch+[fO]+[fO]+[fO]+[fO]+[fO]+[fO]"
+		},
+
+		{
+			"symbol": "O",
+			"derives": "c[fHoh][+fC]"
+		},
+
+		{
+			"symbol": "o",
+			"derives": "Hch[fO][+fC]"
+		},
+
+		{
+			"symbol": "C",
+			"derives": "c[fC]"
+		}
+
+	]
+
+}

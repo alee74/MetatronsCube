@@ -1,0 +1,45 @@
+{
+
+	"Name": "Triforce",
+
+	"Alphabet": [
+
+		{
+			"value": "I",
+			"action": "placeholder"
+		},
+		{
+			"value": "F",
+			"action": "move forward"
+		},
+		{
+			"value": "+",
+			"action": "turn right"
+		},
+		{
+			"value": "-",
+			"action": "turn left"
+		},
+		{
+			"value": "[",
+			"action": "push matrix"
+		},
+		{
+			"value": "]",
+			"action": "pop matrix"
+		}
+
+	],
+
+	"Axiom": "I",
+
+	"Rules": [
+
+		{
+			"symbol": "I",
+			"derives": "[-FF+I+++F][+FF-I---F]"
+		}
+
+	]
+
+}

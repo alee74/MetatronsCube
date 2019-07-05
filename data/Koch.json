@@ -1,0 +1,24 @@
+{
+	"Name": "Koch",
+	"Alphabet": [
+		{
+			"value": "F",
+			"action": "move forward"
+		},
+		{
+			"value": "+",
+			"action": "turn right"
+		},
+		{
+			"value": "-",
+			"action": "turn left"
+		}
+	],
+	"Axiom": "F",
+	"Rules": [
+		{
+			"symbol": "F",
+			"derives": "F-F++F-F"
+		}
+	]
+}
